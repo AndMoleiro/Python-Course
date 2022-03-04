@@ -1,0 +1,20 @@
+literal
+    -> a value of some type (numeric literals, string literals)
+
+function
+    -> a named block of code that we can call, by using its name
+    -> we can write our own functions, or we can use pre build functions like print
+    -> in python, all functions return a value
+
+argument
+    -> a value passed to a function, in order to give it values to work with
+    -> arguments appear in parentheses after the function name
+
+calling a function
+    -> using the function name to execute the function's code
+
+return value
+    -> the value a function returns
+
+parameter
+    -> 
