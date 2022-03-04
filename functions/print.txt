@@ -1,0 +1,12 @@
+print(''): prints a string literal (sequence of characters enclosed in '')
+
+    print() -> white space
+
+
+eg 1: print('Hello, World!') -> Hello, World!
+
+eg 2: print(7 * 6) -> 42
+
+eg 3: print("The end", "or is it?", "keep watching to learn more about Python", 3)
+
+        -> the end or is it? keep watching to learn more about Python 3

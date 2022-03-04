@@ -1,3 +1,0 @@
-print(): prints something
-
-    eg: print('Hello World') ->  Hello World
