@@ -1,0 +1,67 @@
+backslash can be used to:
+
+    - split strings on different lines: \n
+
+        Eg:
+
+        splitString = "This string has been \nsplit over \nseveral \nlines"
+        print (splitString)
+
+            --> This string has been
+                split over
+                several
+                lines
+
+
+    - split strings with tabs: \t
+
+        Eg:
+
+        tabbedString = "1\t2\t3\t4\t5"
+        print(tabbedString)
+
+        --> 1	2	3	4	5
+
+
+    - escape characters: \
+
+        Eg 1:
+
+        # string is encased in '' so we escape the apostrophe
+        print('The pet shop owner said "No, no, \'e\'s uh,...he\'s resting".')
+
+            --> The pet shop owner said "No, no, 'e's uh, ...he's resting".
+
+
+       Eg 2:
+
+       # string is encased in "" so we escape the double quotes
+       print("The pet shop owner said \"No, no, 'e's uh,...he's resting\".")
+
+           --> The pet shop owner said "No, no, 'e's uh, ...he's resting".
+
+
+       Eg 3:
+
+       #using """, lets you skip escaping "" or '
+       print("""The pet shot owner said "No, no, 'e's uh,...he's resting".""")
+
+            --> The pet shop owner said "No, no, 'e's uh, ...he's resting".
+
+
+    - Using the backslash character: \
+
+        Eg 1:
+
+        #using double backslash (\\)
+        print("C:\\Users\\timbuchalka\\notes.txt")
+
+            --> C:\Users\timbuchalka\notes.txt
+
+
+        Eg 2:
+
+        #turning the string into a raw string (adding r)
+        print(r"C:\Users\timbuchalka\notes.txt")
+
+            --> C:\Users\timbuchalka\notes.txt

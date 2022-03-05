@@ -1,0 +1,17 @@
+input() - we assign the value it returns to a variable (whatever text the user enters)
+
+eg 1:
+
+greeting = "Hello"
+
+name = input("Please enter your name ")
+
+print(greeting + 'name')
+
+    # the function requests the input
+
+    --> Please enter your name
+
+        # Input 'Bruce' and the function returns
+
+        --> Hello Bruce
