@@ -1,0 +1,27 @@
+- check variable type -> use type() function
+
+    Eg: print(type(greeting))
+
+        --> <class 'str'>
+
+--------------------------------------------------
+
+Numeric data types:
+
+ - int: whole numbers (no fractional part)
+
+    - can be considered just special cases of real numbers.
+
+    - when represented in a computer, computations using integers are significantly faster than using floating point numbers
+
+    - the python int has no maximum size
+
+
+ - float: real numbers (having a fractional part after the decimal point)
+
+    - Eg: 1.0, 123.456...
+
+    - Python floats have 52 digits of precision. If you need more precise decimal numbers, python 3 includes a decimal data type.
+
+
+ - complex: contain a real and an imaginary part, based on the square root of minus one
