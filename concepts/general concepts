@@ -38,3 +38,11 @@
 - expression: anything that can be calculated to return a value.
 
     Eg: print(a + b) -> evaluates to the result
+
+- sequence: an ordered set of items.
+
+    Eg: "Hello World" contains 11 items and each item is a character
+
+    - A list is also a sequence type.
+
+        Eg: ["computer", "keyboard", "mouse", "mouse mat"] -> a list of strings

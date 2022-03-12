@@ -5,7 +5,7 @@ print('We can even include "quotes" in strings')
 print("Hello" + " world")
 greeting = "Hello"
 # name = "Bruce"
-#name = input("Please enter your name ")
+# name = input("Please enter your name ")
 name = "Tim"
 
 # if we want a space we can add that too
@@ -16,3 +16,12 @@ print(age)
 
 print(type(greeting))
 print(type(age))
+
+# using f(formatted string) allows for string + int concatenation
+print(name + f" is {age} years old")
+
+print(f"Pi is approximately {22 / 7:12.50f}")
+
+pi = 22 / 7
+
+print(f"Pi is approximately {pi:12.50f}")
