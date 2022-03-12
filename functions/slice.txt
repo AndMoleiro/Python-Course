@@ -1,0 +1,38 @@
+print([x:y): prints the characters from x up to, but not including, y
+
+    name = andre
+    print(name[1:2]) -> a
+
+    print(name[-2]) -> r
+
+
+
+eg 1:
+    parrot = "Norwegian Blue"
+
+    print(parrot[0:6])  # Norweg
+    print(parrot[3:5])  # we
+    print(parrot[0:9])  # Norwegian
+    print(parrot[10:])  # Blue
+    print(parrot[:])    # Norwegian Blue
+
+eg 2:
+
+    print(parrot[0:6:2])    # first slice from 0:6 (Norwegi), then second slice on :2 (Nre)
+    print(parrot[0:6:3])    # first slice from 0:6 (Norwegi), then second slice on :3 (Nw)
+
+eg 3:
+
+    number = "9,223,372,036,854,775,807"
+    print(number[1::4]  # starting from 1, every 3rd character
+
+        -> ,,,,,,
+
+eg 4:
+
+    letters = "abcdefghijklmnopqrstuvwxyz"
+
+    backwards = letters[25::-1] (or letters[::-1]
+    print(backwards)
+
+        -> zyxwvutsrqponmlkjihgfedcba
