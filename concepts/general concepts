@@ -34,3 +34,7 @@
     - They are case-sensitive (Greeting and greeting would be two different variables)
 
     - Variables are created when they are first attached to a value, using =
+
+- expression: anything that can be calculated to return a value.
+
+    Eg: print(a + b) -> evaluates to the result

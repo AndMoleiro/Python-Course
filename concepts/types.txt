@@ -25,3 +25,9 @@ Numeric data types:
 
 
  - complex: contain a real and an imaginary part, based on the square root of minus one
+
+--------------------------------------------------
+
+String data types:
+
+ - str: sequence of characters
