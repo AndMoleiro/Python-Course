@@ -1,0 +1,5 @@
+casefold() -converts into lower
+
+    Eg:
+
+        casefold(CiNeMa) --> cinema

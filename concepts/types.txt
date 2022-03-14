@@ -31,3 +31,8 @@ Numeric data types:
 String data types:
 
  - str: sequence of characters
+
+
+--------------------------------------------------
+
+Booleans: a value that can either be True or False

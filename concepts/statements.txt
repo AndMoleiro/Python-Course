@@ -36,3 +36,19 @@
         - == is used to test for equality
 
     - An if statement can include any elif parts, but there can only be one else. elif is short for "else if"
+
+- in/not in: checks if a value is/isn't contained in another value
+
+    eg:
+
+        parrot = "Norwegian Blue"
+
+        letter = input("Enter a character: ")
+
+        if letter in parrot:
+            print("{0} is in {1}".format(letter, parrot))
+        else:
+            print("I don't need that letter")
+
+                - a --> a is in "Norwegian Blue"
+                - p --> I don't need that letter

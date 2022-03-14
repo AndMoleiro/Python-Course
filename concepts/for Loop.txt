@@ -1,0 +1,21 @@
+- for Loop:
+    - it assigns each of the values, one by one, to one or more variables.
+    - It then executes a block of code once for each value
+
+        - the set of values comes from a sequence, or some other iterable object
+
+            - an iterable object is anything that can be iterated over.
+
+          eg:
+
+            parrot = "Norwegian Blue"
+
+            for character in parrot:
+                print(character)
+
+- iterable types
+
+    - range:
+
+
+
