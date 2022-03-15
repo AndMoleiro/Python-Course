@@ -1,0 +1,83 @@
+- for Loop:
+    - it assigns each of the values, one by one, to one or more variables.
+    - It then executes a block of code once for each value
+
+        - the set of values comes from a sequence, or some other iterable object
+
+            - an iterable object is anything that can be iterated over.
+
+          eg:
+
+            parrot = "Norwegian Blue"
+
+            for character in parrot:
+                print(character)
+
+    - iterable types
+
+        - range:
+
+            eg:
+
+            for i in range(1, 3):
+                print("i is now {}".format(i))
+
+                    --> 1,2
+
+            - we can add a step to the range
+
+                eg:
+
+                    for i in range(0, 100, 10):
+                        print("i is now {}".format(i))
+
+                            --> 10, 20, 30...
+
+    - nested for loops
+
+        - a for loop nested within another for loop
+
+            eg:
+
+            for i in range(1, 1
+                for j in range(
+                    print("{0}
+                print("-" * 80)
+
+                    --> times tables (1 - 12)
+
+    - continue: continues to the next iteration of the loop
+
+        eg:
+
+        for item in shopping_list:
+            if item == "spam":
+                continue
+
+            print("Buy " + item)
+
+                --> ["shopping_list"] without "spam"
+
+    - break: finishes the loop
+
+        eg:
+
+        for index in range(len(shopping_list)):
+            if shopping_list[index] == item_to_find:
+                found_at = index
+                break
+
+                --> the loop stops after finding "item_to_find"
+
+- while loop: loops as long as one condition is True and stops when that condition becomes False
+
+    - the basic form is:
+
+        - while <condition>:
+            execute block of code
+
+    - they can be used when you can't determine, in advance, how many times you need to loop
+
+        - one particular application is reading data from a file or internet stream
+
+            - it can be used to keep reading, until there's no more data left

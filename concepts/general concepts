@@ -1,23 +1,35 @@
 - literal
     -> a value of some type (numeric literals, string literals)
 
+--------------------------------------------------
+
 - function
     -> a named block of code that we can call, by using its name
     -> we can write our own functions, or we can use pre build functions like print
     -> in python, all functions return a value
 
+--------------------------------------------------
+
 - argument
     -> a value passed to a function, in order to give it values to work with
     -> arguments appear in parentheses after the function name
 
+--------------------------------------------------
+
 - calling a function
     -> using the function name to execute the function's code
+
+--------------------------------------------------
 
 - return value
     -> the value a function returns
 
+--------------------------------------------------
+
 - parameter
     ->
+
+--------------------------------------------------
 
 - Variable: A way to give a (meaningful) name to an area of memory, into which we can place certain values.
 
@@ -35,9 +47,13 @@
 
     - Variables are created when they are first attached to a value, using =
 
+--------------------------------------------------
+
 - expression: anything that can be calculated to return a value.
 
     Eg: print(a + b) -> evaluates to the result
+
+--------------------------------------------------
 
 - sequence: an ordered set of items.
 
@@ -46,3 +62,14 @@
     - A list is also a sequence type.
 
         Eg: ["computer", "keyboard", "mouse", "mouse mat"] -> a list of strings
+
+--------------------------------------------------
+
+- augmented assignment: shorthand way of assigning values to a variable
+
+    - the combination, in a single statement, of a binary operation and an assignment statement.
+
+        eg:
+
+         # guesses = guesses + 1
+            guesses += 1

@@ -1,51 +1,30 @@
-answer = 5
+import random
 
-print("Please guess a number between 1 and 10: ")
-guess = int(input())
+highest = 100
+answer = random.randint(1, highest)
+print(answer)   # TODO: Remove after testing
+print(f"Please guess a number between 1 and {highest}: ")
+guess = 0   # initialize to any number that doesn't equal the answer
 
-# if guess < answer:
-#     print("Please guess higher")
-#     guess = int(input())
-#     if guess == answer:
-#         print("Well done, you guessed it")
-#     else:
-#         print("Sorry, you have not guessed correctly")
-#
-# elif guess > answer:
-#     print("Please guess lower")
-#     guess = int(input())
-#     if guess == answer:
-#         print("Well done, you guessed it")
-#     else:
-#         print("Sorry, you have not guessed correctly")
-#
-# else:
-#     print("You got it first time")
-
-# if guess != answer:
-#     if guess < answer:
-#         print("Please guess higher")
-#     else:   # this must be greater than answer
-#         print("Please guess lower")
-#     guess = int(input())
-#     if guess == answer:
-#         print("Well done, you guessed it")
-#     else:
-#         print("Sorry, you have not guessed correctly")
-# else:
-#     print("You got it first time")
-
-# challenge - change "guess != answer" to "guess == answer" and make the code work
-
-if guess == answer:
-    print("You got it first time")
-else:
-    if guess < answer:
-        print("Please guess higher")
-    else:
-        print("Please guess lower")
+while guess != answer:
     guess = int(input())
+
+    if guess == 0:
+        print("game over")
+        break
     if guess == answer:
         print("Well done, you guessed it")
+        break
     else:
-        print("Sorry, you have not guessed correctly")
+        if guess < answer:
+            print("Please guess higher")
+        else:
+            print("Please guess lower")
+
+
+
+
+
+
+
+

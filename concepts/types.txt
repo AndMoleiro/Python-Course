@@ -36,3 +36,13 @@ String data types:
 --------------------------------------------------
 
 Booleans: a value that can either be True or False
+
+--------------------------------------------------
+
+lists:
+
+    - ordered sequence of values, enclosed in square brackets
+
+        eg:
+
+            []
