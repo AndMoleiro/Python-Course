@@ -81,3 +81,8 @@
         - one particular application is reading data from a file or internet stream
 
             - it can be used to keep reading, until there's no more data left
+
+- else in a loop:
+
+    - it causes a block of code to be executed if the loop was allowed to continue to the end. In other words,
+        if the loop wasn't broken out of
