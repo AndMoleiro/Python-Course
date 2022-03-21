@@ -1,0 +1,22 @@
+methods: a method is the same as a function, except it's bound to an object
+
+    - that means we need an object in order to call a method.
+
+    - when you call a function, you just type its name, and provide arguments in parentheses.
+
+        - eg:
+
+            len(even)
+
+    - when we call a method, we tell it which object it's called
+
+        - in other words, which object it should be using when it performs its funcion
+
+            - eg:
+
+                s.append(x)
+
+                    -> means that we'll be appending x to a list called s
+
+                    -> we pass x as an argument, so that the method knows what to append
+

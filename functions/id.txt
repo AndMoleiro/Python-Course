@@ -1,0 +1,16 @@
+id(): returns the identity of an object
+
+    -> the id must be guaranteed to be unique and constant for this object during its lifetime
+
+        -> the id of the object may be different each time you run the program, but while your program's running,
+        the object will have the same id
+
+    -> eg:
+
+        result = True
+        another_result = result
+        print(id(result))
+        print(id(another_result))
+
+            --> 4480585456
+                4480585456
