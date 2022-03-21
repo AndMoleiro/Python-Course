@@ -39,10 +39,25 @@ Booleans: a value that can either be True or False
 
 --------------------------------------------------
 
+mutable objects: an object whose values can be changed
+
+    - Python has the following mutable objects built in:
+
+        - list, dict, set, bytearray
+
+    - we can change the value of mutable objects, without the object being destroyed and re-created.
+
+
+--------------------------------------------------
+
+sequences: ordered collection of items
+
+    - individual items can be accessed by their indexed position
+
 lists:
 
     - ordered sequence of values, enclosed in square brackets
 
         eg:
 
-            []
+            [1, 2, 3, 4, 5]
