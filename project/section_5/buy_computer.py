@@ -44,7 +44,7 @@ available_parts = ["computer",
 valid_choices = []
 for i in range(1, len(available_parts) + 1):    # loop to print the index numbers of the available parts
     valid_choices.append(str(i))
-# print(valid_choices)
+print(valid_choices)
 current_choice = "-"
 computer_parts = []     # create an empty list
 
