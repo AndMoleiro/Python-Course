@@ -27,3 +27,10 @@ print(sorted_numbers)
 digits = sorted("432985617")
 print(digits)
 
+# more_numbers = list(numbers)
+# more_numbers = numbers[:]   # copying a list by slicing
+more_numbers = numbers.copy()   # copying a list by using the copy() method
+print(more_numbers)
+print(numbers is more_numbers)  # check if both lists are the same - false
+print(numbers == more_numbers)  # check if both lists have the same values - true
+
